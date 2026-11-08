@@ -65,5 +65,35 @@ copy = Arrays.copyOf(original, 3);    is both same ways to assign copy values
         copyy = Arrays.copyOf(original, 3);
         //replaced old values with new values
         System.out.print("cpy method 3"+Arrays.toString(copyy));
+ 
+
+  // Traditional 1D array traversal
+for (int i = 0; i < num.length; i++) {
+    System.out.println(num[i]);
+
+// Normal 2D array traversal
+int[][] matrix = {
+        {10, 20, 30},
+        {40, 50, 60},
+        {70, 80, 90}
+};
+
+for (int i = 0; i < matrix.length; i++) {
+    for (int j = 0; j < matrix[i].length; j++) {
+        System.out.print(matrix[i][j] + " ");
     }
+    System.out.println();
+}
+// Jagged array traversal
+for (int i = 0; i < jagged.length; i++) {
+    for (int j = 0; j < jagged[i].length; j++) {
+        System.out.print(jagged[i][j] + " ");
+    }
+    System.out.println();
+}
+
+}
+
+
+ }
 }
