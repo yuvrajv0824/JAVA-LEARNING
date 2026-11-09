@@ -97,20 +97,11 @@ marks.length()          Invalid
 Arrays.length           Invalid
 Arrays.toString(marks)  Static method
 Arrays.sort(marks)      Static method
-
-
 length → Field
-
 sort() → Static method
-
 Sorting → Operation
-
 Arrays → Utility class
-
 */
-
-
-
 //Arrays.sort() is a method
 
         //1. count array element -using .length
@@ -126,8 +117,6 @@ Arrays → Utility class
 
         // if sort is needed in descending order for array
         //we use wrapper obj --future learning
-
-
         System.out.print("\n");
         // largest and smallest elements in an array (min,max)
         System.out.print("arrays was 10,30,20,40 \n");
@@ -142,6 +131,8 @@ Arrays → Utility class
         }
         System.out.println("largest element in array:"+large);
         System.out.print("\n");
+
+
 //:: rule change signs at for and if section
         //smallest  <=,<
         int[] min={10,30,20,40};

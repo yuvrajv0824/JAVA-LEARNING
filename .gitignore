@@ -24,8 +24,10 @@ target/
 # Local learning plan
 /java-master-sheet.md
 /INTERSHIP/
+/pathway.md
 /src/INTERSHIP/
 
 # OS junk
 .DS_Store
 Thumbs.db
+
