@@ -146,5 +146,5 @@ copy = Arrays.copyOf(original, 3);    is both same ways to assign copy values
             }
         }
         System.out.println("2D Elements After Reverse: " + Arrays.deepToString(matrix3)); // [[3, 2, 1], [6, 5, 4], [9, 8, 7]]
-    }
+    }// fixed rebased issue
 }
