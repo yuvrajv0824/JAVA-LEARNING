@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ARR_workouts {
     public static void main(String[] args) {
      /*
@@ -5,6 +7,8 @@ public class ARR_workouts {
 1. Prints every mark.
 2. Calculates the total sum of all marks.
       */
+//1d arry =toString
+//2d arry=deepToString
 
         int[] marks = {75, 82, 90, 65, 88};
         for(int mark:marks) //read
@@ -45,6 +49,24 @@ int sum=0;
         System.out.println("smallest:"+small);
 
 
+        //matrix arr with arr display/traversal
+        int[][] matrix={
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j]);
+
+            }
+
+        }System.out.print(" \n");
+
+        //easy without complex i,j inner outer struggle with length
+        for(int[]  mat:matrix)
+    System.out.println("matrix:"+Arrays.toString(mat));
 
 
 
