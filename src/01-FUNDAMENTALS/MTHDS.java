@@ -17,6 +17,9 @@ public class MTHDS {
 
         //4. Calling no-param return method
         System.out.println("no para, return: " + getTen());
+
+
+
     }
 
     // Static return method (int a, int b = Formal Parameters)
@@ -57,4 +60,13 @@ class Helper {
  * WHY  : Lets JVM start psvm immediately with 0 objects, and lets utility methods run without 'new'.
  * HOW  : Add 'static' keyword -> call directly inside same class: isSum(10, 20)
  *                               -> call from another class: Helper.multi(10, 20)
+ */
+
+/* COMPLETE NOTES (Static / Non-Static / Instance / Pass-by-Value vs Reference):
+ * INSTANCE     : A real object created in memory from a Class blueprint using 'new' (MTHDS obj = new MTHDS();).
+ * STATIC       : Belongs to the Class (fixed, shared). Runs with 0 objects (why psvm is static).
+ * NON-STATIC   : Belongs to an Instance (no 'static' keyword). Used when each object holds its own state/data.
+ * PASS-BY-VALUE: Java is strictly Pass-by-Value:
+ *   1. Primitives (int, double) -> copies actual value; editing parameter NEVER changes original.
+ *   2. Objects / Arrays         -> copies the memory address (reference); editing internal data (arr[0] = 99) DOES change original.
  */
